@@ -17,10 +17,12 @@
 #
 # Developer tools - this file is only included in SDK build.
 
-# May require download from PyPI or whereever
+# May require download from PyPI or wherever
 DEVTOOLS += \
 	ipython[5.2.0] \
 	ipdb[0.10.3] \
+	# Pinning version for having above compile with Python 2
+	traitlets[4.2] \
 	nose[1.3.7] \
 	coverage[4.4.2] \
 	nosetty[0.4] \
